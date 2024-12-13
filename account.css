@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:cursive;
+}
+
+body {
+    background-color: rgb(174, 149, 115);
+}
+
+.login-h2 {
+    text-align: center;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    font-size: 50px;
+    color: rgb(243, 243, 243);
+    background-color: rgb(23, 23, 23);
+    border-radius: 10px;
+    font-family: fantasy;
+}
+
+.account-container {
+    margin: 10px auto;
+    width: 55%;
+    height: 600px;
+    text-align: center;
+    background-color: rgb(244, 244, 244);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sign-in {
+    color: black;
+    background-color: goldenrod;
+    align-items: center;
+    font-size: 40px;
+    width: 400px;
+    margin-top: -5px;
+    margin-left: 100px;
+    border: 1px solid gold;
+}
+
+.hamlet-account, .polonius-account, .ophelia-account {
+    margin-top: 20px;
+    height: 150px;
+    line-height: 150px;
+    background-color: rgb(188, 188, 188);
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 2px solid gold;
+}
+
+.hamlet-account a, .polonius-account a, .ophelia-account a {
+    margin-top: 0px;
+}
+
+.hamlet-img, .polonius-img, .ophelia-img, a {
+    border-radius: 50%;
+    vertical-align: middle;
+    width: 120px;
+    height: 120px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 11px;
+}
+
+.hamlet-img {
+    border: 2px solid gold;
+}
+
+.polonius-img {
+    border: 2px solid gold;
+}
+
+.ophelia-img {
+    border: 2px solid gold;
+}
+
+.hamlet-img:hover, .polonius-img:hover, .ophelia-img:hover, a:hover {
+    cursor: pointer;
+}
+
+.gold-wall {
+    position: absolute;
+    width: 100%;
+    margin-top: -100px;
+    z-index: -999;
+}
+

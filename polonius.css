@@ -1,0 +1,42 @@
+ * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+ }
+
+ body {
+    background-color: rgb(149, 129, 100);
+ }
+
+ .polonius-bar {
+   font-family: fantasy;
+   font-size: 40px;
+   height: 100px;
+   line-height: 100px;
+   text-align: center;
+   width: 100%;
+   background-color: rgb(242, 228, 208);
+ }
+
+ .letter {
+   width: 65%;
+   margin-left: 17.5%;
+   margin-right: 17.5%;
+   margin-top: 30px;
+   position: absolute;
+ }
+
+ .letter p {
+   font-size: 2.3em;
+ }
+
+ .paper-img {
+   z-index: -1;
+   width: 70%;
+   margin-left: 15%;
+   margin-right: 15%;
+   display: block;
+   margin-top: 20px;
+   position: absolute;
+ }
